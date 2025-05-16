@@ -1,0 +1,15 @@
+-456        : integer
+false       : boolean
+“0.87”      : string 
+1.67        : float
+“Casa 8”    : string 
+0           : integer
+1000        : integer
+true        : boolean
+“-900”      : string
+3           : integer
+0.0         : float
+-3.1415     : float
+32150       : integer
+128288      : integer
+“false”     : string
