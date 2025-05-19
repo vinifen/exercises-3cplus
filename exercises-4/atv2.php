@@ -13,5 +13,5 @@ function atv(array $n)
     return ["positives"=>$positive, "negatives"=>$negative, "pairs"=>$pair, "odds"=>$odd];
 }
 
-$result = atv([5, 10, -1, 10]);
+$result = atv([5, 10, -1, 10, -2, -6, 8, 11, 9, 5]);
 print_r($result);
