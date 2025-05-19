@@ -1,5 +1,5 @@
 <?php
-function atv3(array $numbers, array $weights )
+function atv(array $numbers, array $weights )
 {   
     if(count($numbers) != count($weights)){
         return null;
@@ -15,5 +15,5 @@ function atv3(array $numbers, array $weights )
     return $result; 
 }
 
-$result = atv3([12, 12], [12, 12]);
+$result = atv([12, 12], [12, 12]);
 print_r($result);

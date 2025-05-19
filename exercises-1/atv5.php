@@ -1,6 +1,6 @@
 <?php
 
-function atv5(int $minPay, int $kw)
+function atv(int $minPay, int $kw)
 {
     $cust100Kw = $minPay / 7;
     $eachKwCust = $cust100Kw / 100;
@@ -9,5 +9,5 @@ function atv5(int $minPay, int $kw)
     return ["each"=>$eachKwCust, "result"=> $result, "result_descont"=> $withDescont];
 }
 
-$result = atv5(1500, 50);
+$result = atv(1500, 50);
 print_r($result);
